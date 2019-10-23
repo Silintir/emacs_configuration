@@ -1,6 +1,8 @@
 (require 'package)
 (setq package-enable-at-startup nil)
 (add-to-list 'package-archives
+	     '("gnu" . "http://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
@@ -26,7 +28,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (company-jedi company-shell slime-company slime company-c-headers flycheck-clang-analyzer flycheck rainbow-delimiters sudo-edit hungry-delete smart-hungry-delete avy smex ido-vertical-mode company-irony company org-bullets nord-theme which-key use-package))))
+    (julia-mode rust-mode web-mode spaceline dashboard projectile company-jedi company-shell slime-company slime company-c-headers flycheck-clang-analyzer flycheck rainbow-delimiters sudo-edit hungry-delete smart-hungry-delete avy smex ido-vertical-mode company-irony company org-bullets nord-theme which-key use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
