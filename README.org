@@ -1,1 +1,1 @@
-/home/apprentice/projects/emacs_config/config.org
+config.org
